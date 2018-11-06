@@ -8,7 +8,7 @@ public interface Game {
     int LEADERS_COUNT = 5;
      Stream<Map.Entry<String, Integer>> getLeaders();
      String playGame(String player, String pal);
-     Map<String,Integer> stream_to_map();
+     Map<String,Integer> streamToMap();
 
     Player getOrCreatePlayer(String name);
 

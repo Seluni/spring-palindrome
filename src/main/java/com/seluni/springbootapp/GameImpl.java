@@ -25,7 +25,7 @@ public class GameImpl implements Game{
                 map(p -> new AbstractMap.SimpleEntry(p.getName(), p.getPoints()));
         }
 
-    public Map<String,Integer> stream_to_map(){
+    public Map<String,Integer> streamToMap(){
         return getLeaders().collect(Collectors.toMap(e -> e.getKey(),
                 e -> e.getValue()));
         }
