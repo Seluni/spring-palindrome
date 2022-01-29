@@ -10,7 +10,6 @@
 .DS_Store
 .classpath
 .factorypath
-.idea
 .metadata
 .project
 .recommenders
@@ -31,7 +30,8 @@ lib/
 manifest.yml
 overridedb.*
 settings.xml
-target
+/**/.idea/
+/**/target/
 transaction-logs
 .flattened-pom.xml
 secrets.yml
